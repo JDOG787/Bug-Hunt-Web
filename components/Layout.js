@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React from "react";
-import image from "/meta-image.png";
 
 export default function Layout(props) {
     return (
@@ -19,14 +18,14 @@ export default function Layout(props) {
                 <meta property="og:url" content="https://bughunt.jdog.codes/"/>
                 <meta property="og:title" content="Bug Hunt"/>
                 <meta property="og:description" content="A simple yet powerful bug tracker to help hunt down those bugs and eliminate them."/>
-                <meta property="og:image" content={image}/>
+                <meta property="og:image" content="/images/meta-image.png"/>
 
                 {/* Twitter */}
                 <meta property="twitter:card" content="summary_large_image"/>
                 <meta property="twitter:url" content="https://bughunt.jdog.codes/"/>
                 <meta property="twitter:title" content="Bug Hunt"/>
                 <meta property="twitter:description" content="A simple yet powerful bug tracker to help hunt down those bugs and eliminate them."/>
-                <meta property="twitter:image" content={image}/>
+                <meta property="twitter:image" content="/images/meta-image.png"/>
             </Head>
             {props.children}
         </div>
