@@ -8,7 +8,12 @@
   /* align-items: center; */
 }
 
+.logo {
+  height: 80px;
+}
+
 .landingNavLinks {
   font-size: 2rem;
   font-weight: lighter;
 }
+

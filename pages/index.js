@@ -1,5 +1,4 @@
 import styles from '../styles/Home.module.css';
-import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
 
@@ -9,12 +8,7 @@ export default function Home() {
         <div>
           <nav className={styles.landingNav}>
             <div>
-              <Image
-                  src="/logo.svg"
-                  alt="logo"
-                  width={200}
-                  height={100}
-                />
+              <img className={styles.logo} src="/images/logo.svg"/>
             </div>
             <div>
               <Link href="/"><a className={styles.landingNavLinks}>Home</a></Link>

@@ -26,6 +26,10 @@ export default function Layout(props) {
                 <meta property="twitter:title" content="Bug Hunt"/>
                 <meta property="twitter:description" content="A simple yet powerful bug tracker to help hunt down those bugs and eliminate them."/>
                 <meta property="twitter:image" content="/images/meta-image.png"/>
+
+                {/* Links */}
+                <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=Offside&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
             </Head>
             {props.children}
         </div>
