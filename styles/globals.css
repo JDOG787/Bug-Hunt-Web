@@ -13,3 +13,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.inverted-btn {
+  padding: .6rem 2rem;
+  border: #F5AFA0 1px solid;
+  border-radius: 6px;
+  color: #F5AFA0;
+  transition: .2s ease;
+  cursor: pointer;
+}
+
+.inverted-btn:hover {
+  color: white;
+  background-color: #F5AFA0;
+}
