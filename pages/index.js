@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css';
-import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
+import InvertedBtn from '../components/inverted-btn';
 
 export default function Home() {
     return (
@@ -9,15 +9,19 @@ export default function Home() {
         <div>
           <nav className={styles.landingNav}>
             <div>
-              <Image
-                  src="/logo.svg"
-                  alt="logo"
-                  width={200}
-                  height={100}
-                />
+              <img className={styles.logo} src="/images/logo.svg"/>
             </div>
             <div>
               <Link href="/"><a className={styles.landingNavLinks}>Home</a></Link>
+            </div>
+            <div>
+              <Link href="/"><a className={styles.landingNavLinks}>Product</a></Link>
+            </div>
+            <div>
+              <Link href="/"><a className={styles.landingNavLinks}>Features</a></Link>
+            </div>
+            <div>
+              <InvertedBtn link="/login" text="Sign up"/>
             </div>
           </nav>
           <h1>Landing page</h1>

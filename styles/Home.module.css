@@ -4,11 +4,17 @@
 }
 
 .landingNav > div {
-  /* display: flex; */
-  /* align-items: center; */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
 }
 
 .landingNavLinks {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: lighter;
+  margin-right: 10vw;
 }
+
