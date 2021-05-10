@@ -39,6 +39,7 @@ h1, h2 {
   color: white;
   transition: .3s ease;
   cursor: pointer;
+  display: inline-block;
 }
 
 .btn:hover {
