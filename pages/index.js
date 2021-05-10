@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css';
 import Link from "next/link";
 import Layout from "../components/Layout";
-import InvertedBtn from '../components/Inverted-btn';
+import InvertedBtn from '../components/InvertedBtn';
 import Btn from '../components/Btn';
 
 export default function Home() {
