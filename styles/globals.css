@@ -31,3 +31,16 @@ h1, h2 {
   color: white;
   background-color: #F5AFA0;
 }
+
+.btn {
+  padding: .6rem 2rem;
+  border-radius: 6px;
+  background-color: #F5AFA0;
+  color: white;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e49b8b;
+}

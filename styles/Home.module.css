@@ -37,6 +37,31 @@
 }
 
 .heroHeader {
-  font-size: 3rem;
+  font-size: 3.4rem;
+  width: 100%;
+  margin-top: 15%;
+}
+
+.pop {
+  color: #F5AFA0;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 4rem;
+}
+
+.heroSection > div {
   width: 50vw;
+}
+
+.heroImage {
+  width: 100%;
+}
+
+.heroInfo {
+  font-size: 1.5rem;
+  width: 70%;
 }
