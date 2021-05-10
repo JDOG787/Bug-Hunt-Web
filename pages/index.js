@@ -6,7 +6,7 @@ import Btn from '../components/Btn';
 
 export default function Home() {
     return (
-      <Layout>
+      <Layout pageTitle="Home">
         <div>
           <nav className={styles.landingNav}>
             <div>
