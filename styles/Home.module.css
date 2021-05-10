@@ -1,5 +1,6 @@
 .landingNav {
   display: flex;
+  justify-content: space-around;
   padding: 1rem;
 }
 
@@ -15,6 +16,27 @@
 .landingNavLinks {
   font-size: 1.2rem;
   font-weight: lighter;
-  margin-right: 10vw;
+  position: relative;
 }
 
+.landingNavLinks::after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.landingNavLinks:hover::after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.heroHeader {
+  font-size: 3rem;
+  width: 50vw;
+}

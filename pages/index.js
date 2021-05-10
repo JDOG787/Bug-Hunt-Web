@@ -20,11 +20,11 @@ export default function Home() {
             <div>
               <Link href="/"><a className={styles.landingNavLinks}>Features</a></Link>
             </div>
-            <div>
+            <div className={styles.signupBtn}>
               <InvertedBtn link="/login" text="Sign up"/>
             </div>
           </nav>
-          <h1>Landing page</h1>
+          <h1 className={styles.heroHeader}>Helping you elimiate them bugs</h1>
           <a href="/login">Login</a>
         </div>
       </Layout>

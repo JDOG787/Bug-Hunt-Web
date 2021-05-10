@@ -14,12 +14,16 @@ a {
   box-sizing: border-box;
 }
 
+h1, h2 {
+  font-family: Offside;
+}
+
 .inverted-btn {
   padding: .6rem 2rem;
   border: #F5AFA0 1px solid;
   border-radius: 6px;
   color: #F5AFA0;
-  transition: .2s ease;
+  transition: .3s ease;
   cursor: pointer;
 }
 
