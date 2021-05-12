@@ -1,11 +1,12 @@
 import styles from '../styles/Home.module.css';
 import Link from "next/link";
 import Layout from "../components/Layout";
-import InvertedBtn from '../components/inverted-btn';
+import InvertedBtn from '../components/InvertedBtn';
+import Btn from '../components/Btn';
 
 export default function Home() {
     return (
-      <Layout>
+      <Layout pageTitle="Home">
         <div>
           <nav className={styles.landingNav}>
             <div>
@@ -20,12 +21,20 @@ export default function Home() {
             <div>
               <Link href="/"><a className={styles.landingNavLinks}>Features</a></Link>
             </div>
-            <div>
-              <InvertedBtn link="/login" text="Sign up"/>
+            <div className={styles.signupBtn}>
+              <InvertedBtn link="/login" text="Login"/>
             </div>
           </nav>
-          <h1>Landing page</h1>
-          <a href="/login">Login</a>
+          <section className={styles.heroSection}>
+            <div>
+              <h1 className={styles.heroHeader}>Helping you <span className={styles.pop}>eliminate</span> them bugs</h1>
+              <p className={styles.heroInfo}>A Simple yet powerful bug and project tracker that aids you on accomplishing what you need to do.</p>
+              <Btn text="Get Started" link="/login"/>
+            </div>
+            <div>
+              <img className={styles.heroImage} src="/images/hunt-list.svg"/>
+            </div>
+          </section>
         </div>
       </Layout>
     )
